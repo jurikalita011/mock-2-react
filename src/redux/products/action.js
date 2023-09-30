@@ -5,7 +5,7 @@ import {
   PRODUCT_FAILURE,
   PRODUCT_REQUEST,
 } from "../actionTypes";
-
+// https://mock-2-react-ofiiwg6kj-jurikalita011.vercel.app/
 export const addProducts = (newProduct) => (dispatch) => {
   dispatch({ type: PRODUCT_REQUEST });
   axios

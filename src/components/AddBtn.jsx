@@ -45,7 +45,7 @@ export const AddBtn = () => {
       <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Create your account</ModalHeader>
+          <ModalHeader>Create your accounts</ModalHeader>
           <ModalCloseButton />
           <form onSubmit={handleSubmit}>
             <ModalBody pb={6}>
